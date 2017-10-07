@@ -8,26 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		ACF2E3F41F883B1D00ACDFF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2E3F31F883B1D00ACDFF6 /* AppDelegate.swift */; };
-		ACF2E3F61F883B1D00ACDFF6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ACF2E3F51F883B1D00ACDFF6 /* GameScene.sks */; };
-		ACF2E3F81F883B1D00ACDFF6 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = ACF2E3F71F883B1D00ACDFF6 /* Actions.sks */; };
 		ACF2E3FA1F883B1D00ACDFF6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2E3F91F883B1D00ACDFF6 /* GameScene.swift */; };
 		ACF2E3FC1F883B1D00ACDFF6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2E3FB1F883B1D00ACDFF6 /* GameViewController.swift */; };
 		ACF2E3FF1F883B1D00ACDFF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF2E3FD1F883B1D00ACDFF6 /* Main.storyboard */; };
 		ACF2E4011F883B1D00ACDFF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF2E4001F883B1D00ACDFF6 /* Assets.xcassets */; };
 		ACF2E4041F883B1D00ACDFF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF2E4021F883B1D00ACDFF6 /* LaunchScreen.storyboard */; };
+		ACF2E40E1F8866DD00ACDFF6 /* bateu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACF2E40B1F8866DD00ACDFF6 /* bateu.mp3 */; };
+		ACF2E40F1F8866DD00ACDFF6 /* musica.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACF2E40C1F8866DD00ACDFF6 /* musica.mp3 */; };
+		ACF2E4101F8866DD00ACDFF6 /* pontuou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACF2E40D1F8866DD00ACDFF6 /* pontuou.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACF2E3F01F883B1D00ACDFF6 /* FlappyDuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyDuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF2E3F31F883B1D00ACDFF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACF2E3F51F883B1D00ACDFF6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		ACF2E3F71F883B1D00ACDFF6 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		ACF2E3F91F883B1D00ACDFF6 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		ACF2E3FB1F883B1D00ACDFF6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		ACF2E3FE1F883B1D00ACDFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACF2E4001F883B1D00ACDFF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACF2E4031F883B1D00ACDFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACF2E4051F883B1D00ACDFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF2E40B1F8866DD00ACDFF6 /* bateu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bateu.mp3; path = ../../../Downloads/FlappyDuckFiles/GameFiles/bateu.mp3; sourceTree = "<group>"; };
+		ACF2E40C1F8866DD00ACDFF6 /* musica.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = musica.mp3; path = ../../../Downloads/FlappyDuckFiles/GameFiles/musica.mp3; sourceTree = "<group>"; };
+		ACF2E40D1F8866DD00ACDFF6 /* pontuou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pontuou.mp3; path = ../../../Downloads/FlappyDuckFiles/GameFiles/pontuou.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +62,10 @@
 		ACF2E3F21F883B1D00ACDFF6 /* FlappyDuck */ = {
 			isa = PBXGroup;
 			children = (
+				ACF2E40B1F8866DD00ACDFF6 /* bateu.mp3 */,
+				ACF2E40C1F8866DD00ACDFF6 /* musica.mp3 */,
+				ACF2E40D1F8866DD00ACDFF6 /* pontuou.mp3 */,
 				ACF2E3F31F883B1D00ACDFF6 /* AppDelegate.swift */,
-				ACF2E3F51F883B1D00ACDFF6 /* GameScene.sks */,
-				ACF2E3F71F883B1D00ACDFF6 /* Actions.sks */,
 				ACF2E3F91F883B1D00ACDFF6 /* GameScene.swift */,
 				ACF2E3FB1F883B1D00ACDFF6 /* GameViewController.swift */,
 				ACF2E3FD1F883B1D00ACDFF6 /* Main.storyboard */,
@@ -132,11 +135,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF2E40E1F8866DD00ACDFF6 /* bateu.mp3 in Resources */,
 				ACF2E3FF1F883B1D00ACDFF6 /* Main.storyboard in Resources */,
-				ACF2E3F61F883B1D00ACDFF6 /* GameScene.sks in Resources */,
 				ACF2E4011F883B1D00ACDFF6 /* Assets.xcassets in Resources */,
+				ACF2E4101F8866DD00ACDFF6 /* pontuou.mp3 in Resources */,
+				ACF2E40F1F8866DD00ACDFF6 /* musica.mp3 in Resources */,
 				ACF2E4041F883B1D00ACDFF6 /* LaunchScreen.storyboard in Resources */,
-				ACF2E3F81F883B1D00ACDFF6 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
